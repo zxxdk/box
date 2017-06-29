@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+/*袋子*/
+.daizi{
+	margin-left:100px;
+	width:130px;
+	height:130px;
+}
+.xiezi{
+	width:100px;
+	height:100px;
+	background-color:orange;
+	overflow:auto;
+}
+.xiehe{
+	box-shadow:5px 5px 5px 1px rgba(0,0,0,.6);
+	margin-left:100px;
+    padding:10px;
+    width:100px;
+	height:100px;
+	background-color:aqua;
+	border:5px solid red;
+}
+.xiezi1{
+	width:100px;
+	height:100px;
+	background-color:orange;
+}
+.xiehe1{
+	margin:100px;
+    padding:10px;
+    width:130px;
+	height:130px;
+	background-color:aqua;
+	border:5px solid red;
+	box-sizing: border-box;
+}
+.col{
+	-webkit-column-count:2; /*分成2栏*/
+}
+.center{
+	display:-webkit-box;
+	-webkit-box-pack:center;/*水平居中*/
+	-webkit-box-align:center;/*垂直居中*/
+	height:300px;
+	width:300px;
+	background-color:yellow;
+}
+
+.con{
+	display:-webkit-flex;
+    background-color:green;
+	margin:auto;
+	flex-direction: row;
+}
+.first{
+	-webkit-order:2;
+    -webkit-flex:1;
+    background-color: orange;
+}
+#second{
+	-webkit-order:3;
+	background-color: aquamarine;
+}
+#three{
+	-webkit-order:1;
+	background-color: #E3FF7F;
+
+}
+/*水平分栏*/
+
+.a{
+    background-color: gray;
+    
+}
+.b{
+    background-color:yellow;
+    
+}
+.c{
+	background-color:red;
+	
+}
+/*垂直分栏*/
+.don{
+	display:-webkit-box;
+
+}
+.d1{
+    background-color: orange;
+    
+}
+.d2{
+    background-color:yellow;
+    
+}
+.d3{
+	background-color:red;
+	
+}
+
